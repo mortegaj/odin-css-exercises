@@ -51,7 +51,7 @@ ul {
   margin: 0px;
   padding: 0px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
 }
 
 a {
@@ -59,3 +59,14 @@ a {
   color: #6b6666;
 }
 
+.content  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 16px;
+}
